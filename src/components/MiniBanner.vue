@@ -2,9 +2,44 @@
     <div class="md:px-4 md:hidden">
         <div class="container mx-auto bg-white rounded-md mb-2">
             <div class="">
-                <Swiper :modules="modules" :loop="true" :slidesPerView="1" :autoplay="{delay: 2500, disableOnInteraction: false,}" :pagination="{clickable:true}">
+                <!-- <Swiper :modules="modules" :loop="true" :slidesPerView="1" :autoplay="{delay: 2500, disableOnInteraction: false,}" :pagination="{clickable:true}">
                     <SwiperSlide v-for="(photo, index) in this.photos" :key="index">
                         <img :src="`/src/assets/Banners/${photo}`" alt="Rebel Base">
+                    </SwiperSlide>
+                </Swiper> -->
+                <Swiper :modules="modules" :loop="true" :slidesPerView="1" :autoplay="{delay: 2500, disableOnInteraction: false,}" :pagination="{clickable:true}">
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b1.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b2.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b3.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b4.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b5.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b6.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b7.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b8.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b9.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b10.png" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b11.png" alt="Rebel Base">
                     </SwiperSlide>
                 </Swiper>
             </div>
