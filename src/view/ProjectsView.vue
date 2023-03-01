@@ -11,12 +11,12 @@
                     </div>
                 </div>
                 <div class=" py-1 ">
-                    <img src="/src/assets/emp/tech-boy.png" alt="" class="w-full h-[430px] object-contain object-right">
+                    <img src="../assets/emp/tech-boy.png" alt="" class="w-full h-[430px] object-contain object-right">
                 </div>
             </div>
             <div class="grid xl:grid-cols-2 gap-4 place-items-center mt-3">
                 <div class="w-full flex flex-col items-center rounded-t-lg">
-                    <img src="/src/assets/projects/rebelbase1.png" alt="" class="w- h-full object-contain object-center rounded-t-lg">
+                    <img src="../assets/projects/rebelbase1.png" alt="" class="w- h-full object-contain object-center rounded-t-lg">
                     <h1 class="mt-4 text-2xl font-semibold">
                         Ron & Friends
                     </h1>
@@ -25,7 +25,7 @@
                     </p>
                 </div>
                 <div class="w-full flex flex-col items-center rounded-t-lg">
-                    <img src="/src/assets/projects/rebelbase2.png" alt="" class="w- h-full object-contain object-center rounded-t-lg">
+                    <img src="../assets/projects/rebelbase2.png" alt="" class="w- h-full object-contain object-center rounded-t-lg">
                     <h1 class="mt-4 text-2xl font-semibold">
                         Blue Pin
                     </h1>
