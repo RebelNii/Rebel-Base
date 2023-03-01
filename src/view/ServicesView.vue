@@ -10,7 +10,7 @@
                 </div>
                 <div class="">
                     <div class="w-full rounded-lg overflow-hidden px-1 md:px-2 lg:px-0 lg:pr-4 py-2">
-                        <img src="./src/assets/emp/IMG_1034.jpg" class=" hover:scale-110  transition-all md:block object-contain md:object-cover rounded-lg md:h-[550px] xl:h-[350px] w-full" srcset="./src/assets/emp/IMG_0140.jpg 375w, ./src/assets/emp/IMG_0130.jpg 1000w" sizes="(max-width: 480px) 80vw, 90vw" alt="" loading="eager">
+                        <img src="/src/assets/emp/IMG1034.jpg" class=" hover:scale-110  transition-all md:block object-contain md:object-cover rounded-lg md:h-[550px] xl:h-[350px] w-full" srcset="./src/assets/emp/IMG0140.jpg 375w, /src/assets/emp/IMG0130.jpg 1000w" sizes="(max-width: 480px) 80vw, 90vw" alt="" loading="eager">
                         <!-- <img src="/src/assets/bg/test3.jpg" class="md:hidden object-contain rounded-lg h-[300px] w-full" alt=""> -->
                     </div>
                 </div>
