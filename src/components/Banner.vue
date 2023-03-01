@@ -4,7 +4,7 @@
             <div class="">
                 <Swiper :modules="modules" :loop="true" :navigation="false" :slidesPerView="3" :pagination="{clickable:true}" :spaceBetween="30" :centeredSlides="true" :autoplay="{delay: 2500, disableOnInteraction: false,}" :freeMode="true">
                     <SwiperSlide v-for="photo in this.photos">
-                        <img :src="`src/assets/Banners/${photo}`" loading="eager" alt="Rebel Base">
+                        <img :src="`/src/assets/Banners/${photo}`" loading="eager" alt="Rebel Base">
                     </SwiperSlide>
                 </Swiper>
             </div>
