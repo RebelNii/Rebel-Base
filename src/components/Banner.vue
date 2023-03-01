@@ -2,9 +2,44 @@
     <div class="md:px-4 hidden md:block">
         <div class="container mx-auto bg-white dark:bg-gray-400 rounded-md mb-2 ">
             <div class="">
-                <Swiper :modules="modules" :loop="true" :navigation="false" :slidesPerView="3" :pagination="{clickable:true}" :spaceBetween="30" :centeredSlides="true" :autoplay="{delay: 2500, disableOnInteraction: false,}" :freeMode="true">
+                <!-- <Swiper :modules="modules" :loop="true" :navigation="false" :slidesPerView="3" :pagination="{clickable:true}" :spaceBetween="30" :centeredSlides="true" :autoplay="{delay: 2500, disableOnInteraction: false,}" :freeMode="true">
                     <SwiperSlide v-for="photo in this.photos">
                         <img :src="`/src/assets/Banners/${photo}`" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                </Swiper> -->
+                <Swiper :modules="modules" :loop="true" :navigation="false" :slidesPerView="3" :pagination="{clickable:true}" :spaceBetween="30" :centeredSlides="true" :autoplay="{delay: 2500, disableOnInteraction: false,}" :freeMode="true">
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b1.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b2.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b3.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b4.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b5.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b6.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b7.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b8.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b9.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b10.png" loading="eager" alt="Rebel Base">
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/src/assets/Banners/b11.png" loading="eager" alt="Rebel Base">
                     </SwiperSlide>
                 </Swiper>
             </div>
