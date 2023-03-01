@@ -14,7 +14,7 @@
               class="w-[50px] h-[50px] absolute top-0 left-[170px] rounded-full border-4 border-transparent translate-y-[-50%]"
             >
               <img
-                src="../assets/logos/RB (3).png"
+                src="../assets/logos/RB(3).png"
                 class="w-full h-full object-center object-cover rounded-full"
                 alt=""
               />
