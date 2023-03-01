@@ -4,7 +4,7 @@
             <div class="">
                 <Swiper :modules="modules" :loop="true" :slidesPerView="1" :autoplay="{delay: 2500, disableOnInteraction: false,}" :pagination="{clickable:true}">
                     <SwiperSlide v-for="(photo, index) in this.photos" :key="index">
-                        <img :src="`../assets/Banners/${photo}`" alt="Rebel Base">
+                        <img :src="`/src/assets/Banners/${photo}`" alt="Rebel Base">
                     </SwiperSlide>
                 </Swiper>
             </div>
