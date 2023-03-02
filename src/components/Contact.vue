@@ -11,7 +11,7 @@
               </p>
             </div>
             <div
-              class="w-[50px] h-[50px] absolute top-0 left-[170px] rounded-full border-4 border-transparent translate-y-[-50%]"
+              class="hidden md:block w-[50px] h-[50px] absolute top-0 left-[140px] md:left-[170px] rounded-full border-4 border-transparent translate-y-[-50%]"
             >
               <img
                 src="../assets/logos/RB(3).png"
