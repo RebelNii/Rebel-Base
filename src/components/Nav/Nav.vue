@@ -5,11 +5,11 @@
         <Contact v-if="modal" />
       </Transition>
       <div class="container mx-auto w-full gap-x-2 flex justify-between items-center">
-        <div class="flex items-center gap-x-2 px-3">
+        <div class="flex items-center gap-x-2 px-3 ">
           <img
-            src="../../assets/logos/RBremovebg.png"
+            src="../../assets/fav/favicon-32x32.png"
             alt=""
-            class="w-[40px] md:w-[60px] h-fit rounded-full object-center object-cover md:hidden"
+            class="w-[40px] md:w-[60px] rounded-full object-center object-cover md:hidden"
           />
           <h1 class="hidden md:block text-3xl font-bold text-yellow-700">
             <a href="/"> Rebel <span class="text-indigo-500">Base</span> </a>
