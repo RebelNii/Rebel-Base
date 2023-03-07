@@ -1,5 +1,5 @@
 <template>
-  <div @click="checkModal" class="fixed z-[10] top-10 left-0 bottom-0 right-0 bg-gradient-to-b from-slate-500" ref="modalWrap">
+  <div @click="checkModal" class="fixed z-[100] top-10 left-0 bottom-0 right-0 bg-gradient-to-b from-slate-500" ref="modalWrap">
     <div class="">
       <div class="flex justify-center items-center">
         <div class="w-full px-2 py-2 rounded-md transition-all md:px-2 md:w-[400px]">

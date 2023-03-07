@@ -1,10 +1,10 @@
 <template>
   <div class="w-full container-fluid mx-auto text-white text-center">
     <div class="w-full flex flex-col">
-      <div class="w-full nav border-b-2 border-zinc-900">
+      <div class=" w-full nav border-b-2 border-zinc-900">
         <Nav />
       </div>
-      <div class="py-2 w-full">
+      <div class="container-fluid mx-auto py-4 w-full mt-10">
         <router-view class="router-view" v-slot="{Component}">
           <Transition name="opacity-vue" mode="out-in">
             <component :is="Component" />
@@ -35,10 +35,39 @@ export default {
     Nav, Contact,Footer
   },
   methods:{
-    
+    body(){
+      let bdy = document.getElementById('html');
+      let lastScroll = 0;
+      window.addEventListener('scroll', () => {
+        let currentScroll = window.pageYOffset;
+        let nav = document.querySelector('.bbb');
+        if(currentScroll <= 0){
+          nav.classList.remove('opacity-100');
+        }
+
+
+        if(currentScroll > 0){
+          // let nav = document.querySelector('.bbb');
+          nav.classList.add('opacity-0')
+        }
+
+        if(currentScroll < lastScroll){
+          nav.classList.remove('opacity-0');
+          // nav.classList.add('translate-y-0')
+        }
+        console.log(window.pageYOffset)
+        console.log({'lastscroll': lastScroll})
+
+        lastScroll = currentScroll;
+      })
+
+    }
   },
   computed:{
-    ...mapState(['modal'])
+    ...mapState(['modal', 'miniNav'])
+  },
+  mounted(){
+    this.body()
   }
 };
 </script>
@@ -53,15 +82,21 @@ body {
 }
 html {
   /* Firefox */
-  /* scrollbar-width: none; */
-  scrollbar-width: auto;
+  scrollbar-width: none;
+  /* scrollbar-width: ; */
   /* Edge */
   -ms-overflow-style: none;
 }
 /* Safari & chrome */
-.html::-webkit-scrollbar {
+html::-webkit-scrollbar {
     /* display: none; */
-    border-radius: 10px;
+    border-radius: 50px;
+    /* width: 15px; */
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 
 #app {
@@ -70,7 +105,7 @@ html {
   overflow-y:scroll;
   overflow-x: hidden;
   /* Firefox */
-  /* scrollbar-width: none; */
+  scrollbar-width: none;
   /* Edge */
   /* -ms-overflow-style: none; */
 }
@@ -88,7 +123,7 @@ html {
 
 .mdNav a.router-link-exact-active {
   color: #fff;
-  border-bottom: 5px solid white;
-  border-radius: 5px;
+  /* border-bottom: 5px solid white;
+  border-radius: 5px; */
 }
 </style>

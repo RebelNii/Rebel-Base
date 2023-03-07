@@ -1,6 +1,6 @@
 <template>
     <div class="md:px-4 hidden md:block">
-        <div class="container mx-auto bg-white dark:bg-gray-400 rounded-md mb-2 ">
+        <div class="container mx-auto bg-white dark:bg-gray-700 rounded-md mb-2 ">
             <div class="">
                 <!-- <Swiper :modules="modules" :loop="true" :navigation="false" :slidesPerView="3" :pagination="{clickable:true}" :spaceBetween="30" :centeredSlides="true" :autoplay="{delay: 2500, disableOnInteraction: false,}" :freeMode="true">
                     <SwiperSlide v-for="photo in this.photos">

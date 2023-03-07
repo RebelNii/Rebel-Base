@@ -1,17 +1,16 @@
 <template>
   <div class="">
     <div class="">
-        <!-- <Contact v-if="modal" /> -->
-      <div class="grid gap-3 xl:grid-cols-2 mb-2">
+      <div class="bg-yellow-300 dark:bg-slate-800 transition duration-200 grid gap-3 xl:grid-cols-2 pb-2">
         <div class="md:px-10 md:py-10 lg:px-18 lg:py-20">
-          <div class="px-12 py-12 text-left">
+          <div class="px-12 text-black dark:text-white py-12 text-left">
             <h1 class="header text-lg md:text-3xl font-bold">
               Building digital dreams, one line of code at a time.
             </h1>
             <p class="pp text-sm mt-1 md:text-base font-medium">
               Bringing your ideas to life, through technology.
             </p>
-             <button @click="updateModal" class="ctn relative bg-green-600 p-1 md:py-2 md:px-4 rounded-lg mt-2 text-sm md:text-lg font-semibold">
+             <button @click="updateModal" class="ctn relative bg-green-600 p-1 md:py-2 md:px-4 rounded-lg mt-2 text-white text-sm md:text-lg font-semibold">
                 Let's Talk.
                 <span class="animate-ping absolute h-4 w-4 translate-y-[-50%] bg-blue-600 rounded-full top-0 right-0 opacity-75"></span>
              </button>
@@ -37,7 +36,6 @@
 import MiniServices from '../components/Home/MiniServices.vue'
 import Banner from '../components/Banner.vue';
 import MiniBanner from '../components/MiniBanner.vue';
-import Contact from '../components/Contact.vue';
 import Serve from '../components/Serve.vue'
 import { mapState, mapMutations } from 'vuex';
 export default {
@@ -47,7 +45,7 @@ export default {
       anime: true,
     };
   },
-  components: {Contact, MiniServices, Banner,MiniBanner, Serve},
+  components: { MiniServices, Banner,MiniBanner, Serve},
   methods:{
     toggleModal(){
       this.modal = !this.modal

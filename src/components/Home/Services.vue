@@ -1,8 +1,8 @@
 <template>
-  <div class="">
-    <h1 class="s1 font-bold text-sm md:text-2xl mb-1">Our Services Include...</h1>
-    <div class="max-h-[500px] md:max-h-full container mx-auto overflow-x-hidden overflow-y-scroll md:overflow-hidden">
-      <div class="grid md:grid-cols-2 bg-gradient-to-b from-blue-800 via-blue-500 to-sky-300 xl:grid-cols-3 lg:grid-rows-3 rounded-lg px-5 py-4 gap-4">
+  <div class="bg-stone-400 dark:bg-stone-700">
+    <h1 class="s1 font-bold text-sm text-black dark:text-white md:text-2xl mb-1">What we offer</h1>
+    <div class="max-h-[500px] md:max-h-full container mx-auto overflow-x-hidden overflow-y-scroll md:overflow-hidden pb-2">
+      <div class="grid md:grid-cols-2 bg-gradient-to-b from-blue-800 via-blue-500 to-sky-300 dark:bg-gradient-to-b dark:from-stone-700 dark:to-stone-700 xl:grid-cols-3 lg:grid-rows-3 rounded-lg px-5 py-4 gap-4">
         <div class="bg-gradient-to-r from-indigo-500 to-blue-500 py-1 px-1 rounded-md">
           <h1 class="s1 text-2xl font-semibold border-b-2">Websites</h1>
           <p class="s2 text-left break-words mt-1 px-2 py-1">
